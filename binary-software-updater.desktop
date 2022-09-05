@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Exec=/home/kainat/.local/share/ggs/download-update/update.sh
+Exec=/opt/update-launcher-dx.sh
 Name=binary-updates
 GenericName=binary-tweaks
 Icon=system-software-update.svg
