@@ -12,8 +12,9 @@ echo "50" ;sleep 1
 ./updates/shell-extensions.sh
 echo "75" ;sleep 1 
 ./updates/update-backgrounds.sh
-echo "100" ;sleep 1 
+echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
+/usr/bin/update-manager
 ) |
 zenity --progress \
   --title="" \
