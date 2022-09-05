@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/.local/share/ggs/download-update
 (
 echo "#cheacking for update" ; sleep 1
 echo "10"; sleep 1 
