@@ -9,6 +9,8 @@ echo "#installing update"
 echo "25" ;sleep 1 
 ./updates/update-desktop-themes.sh
 echo "50" ;sleep 1 
+./updates/install-update.sh
+echo "60" ;sleep 1 
 ./updates/shell-extensions.sh
 echo "75" ;sleep 1 
 ./updates/update-backgrounds.sh
