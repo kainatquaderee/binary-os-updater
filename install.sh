@@ -1,2 +1,2 @@
 #!/bin/bash
-cp ./download-update ~/.local/share/ggs
+cp -r ./download-update ~/.local/share/ggs
