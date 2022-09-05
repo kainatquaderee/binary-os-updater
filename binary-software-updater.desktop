@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Exec=/opt/tweaks/binary-tweaks-starter.tweks
+Name=binary-updates
+GenericName=binary-tweaks
+Icon=system-software-update.svg
+Comment=extra settings 
+Encoding=UTF-8
+Terminal=false
+Type=Application
+Categories=Application;network,GNOME;GTK;Settings
