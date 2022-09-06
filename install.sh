@@ -1,7 +1,6 @@
 #!/bin/bash
 mkdir -p ~/.local/share/ggs/caches/updates
 cp -r ./download-update ~/.local/share/ggs
-cp -r ./binary-software-updater.desktop ~/.config/autostart
 cp -r ./binary-software-updater.desktop ~/.local/share/applications
 sudo cp ./update-launcher-dx.sh /opt
 cd ~/.local/share/ggs/caches/updates
