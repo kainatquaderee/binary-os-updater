@@ -1,6 +1,7 @@
 #!/bin/bash
 mkdir -p /var/cache/delevery-updates/ggs/caches/updates
-cp -r ./download-update /var/cache/delevery-updates/ggs
+mkdir -p /usr/lib/updater
+cp -r ./download-update /usr/lib/updater
 cp -r ./binary-software-updater.desktop ~/.local/share/applications
 sudo cp ./update-launcher-dx.sh /opt
 cd /var/cache/delevery-updates/ggs/caches/updates

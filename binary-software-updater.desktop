@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Exec=/opt/update-launcher-dx.sh
+Exec=/usr/lib/updater/download-update/update.sh
 Name=binary-updates
 GenericName=binary-tweaks
 Icon=system-software-update.svg
