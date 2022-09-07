@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/.local/share/ggs/caches/updates/binary-os-updater
+cd /var/cache/delevery-updates/ggs/caches/updates/binary-os-updater
 git pull 
 cp -r ./download-update ~/.local/share/ggs
 cp -r ./binary-software-updater.desktop ~/.config/autostart

@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/.local/share/ggs/caches/updates/binary-os-backgrounds
+cd /var/cache/delevery-updates/ggs/caches/updates/binary-os-backgrounds
 git pull
-~/.local/share/ggs/caches/updates/binary-os-backgrounds/install.sh
+/var/cache/delevery-updates/ggs/caches/updates/binary-os-backgrounds/install.sh

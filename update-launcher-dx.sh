@@ -1,2 +1,2 @@
 #!/bin/bash
-~/.local/share/ggs/download-update/update.sh
+/var/cache/delevery-updates/ggs/download-update/update.sh
