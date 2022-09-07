@@ -5,6 +5,11 @@ echo "10"; sleep 1
 echo "50" ; sleep 1
 echo "100" ; sleep 1
 echo "#installing update"
+git clone https://github.com/kainatquaderee/binary-os-desktop-setup.git
+git clone https://github.com/kainatquaderee/binary-os-backgrounds.git
+git clone https://github.com/kainatquaderee/binary-os-themes-icons-theme-.git 
+git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
+git clone https://github.com/kainatquaderee/binary-os-updater.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
