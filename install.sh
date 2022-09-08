@@ -22,3 +22,4 @@ git clone https://github.com/kainatquaderee/binary-os-backgrounds.git
 git clone https://github.com/kainatquaderee/binary-os-themes-icons-theme-.git 
 git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
 git clone https://github.com/kainatquaderee/binary-os-updater.git
+git clone https://github.com/kainatquaderee/binary-os-fonts-roboto-.git

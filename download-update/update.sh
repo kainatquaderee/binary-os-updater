@@ -22,6 +22,7 @@ echo "60" ;sleep 1
 echo "75" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
+/usr/lib/updater/download-update/updates/font-update.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
 /usr/bin/update-manager
