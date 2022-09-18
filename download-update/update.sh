@@ -1,4 +1,5 @@
 #!/bin/bash
+Path askpass /usr/lib/zenity/ask-password.sh
 (
 echo "#cheacking for update" ; sleep 1
 echo "10"; sleep 1 
@@ -25,7 +26,7 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/font-update.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-apt update && apt upgrade 
+sudo -A apt update && sudo -A apt upgrade 
 ) |
 zenity --progress \
   --title="" \
