@@ -1,5 +1,6 @@
 #!/bin/bash
-Path askpass /usr/lib/zenity/ask-password.sh
+export SUDO_ASKPASS="/usr/lib/zenity/ask-password.sh"
+sudo -A echo ok
 (
 echo "#cheacking for update" ; sleep 1
 echo "10"; sleep 1 
