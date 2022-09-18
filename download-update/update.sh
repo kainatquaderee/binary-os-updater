@@ -25,7 +25,7 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/font-update.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-/usr/bin/update-manager
+apt update && apt upgrade 
 ) |
 zenity --progress \
   --title="" \
