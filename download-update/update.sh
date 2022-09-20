@@ -15,6 +15,7 @@ git clone https://github.com/kainatquaderee/binary-os-themes-icons-theme-.git
 git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
 git clone https://github.com/kainatquaderee/binary-os-updater.git
 git clone https://github.com/kainatquaderee/Binary-desktop.git
+git clone https://github.com/kainatquaderee/binary-commands.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
@@ -27,6 +28,7 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
 /usr/lib/updater/download-update/updates/binary-desktop-install.sh
+/usr/lib/updater/download-update/updates/update-binary-command.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
 sudo -A apt update && sudo -A apt upgrade 
