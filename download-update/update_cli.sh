@@ -30,5 +30,5 @@ sudo /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 sudo /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-sudo apt-get -y update && sudo apt-get -y upgrade 
+sudo apt-get  update -y && sudo apt-get  upgrade -y
 )
