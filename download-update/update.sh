@@ -31,7 +31,7 @@ sudo -A /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 sudo -A /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-sudo -A apt update && sudo -A apt upgrade 
+sudo -A apt-get -y update && sudo -A apt-get -y upgrade
 ) |
 zenity --progress \
   --title="" \
