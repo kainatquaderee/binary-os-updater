@@ -1,4 +1,5 @@
 #!/bin/bash
-cd /var/cache/delevery-updates/ggs/caches/updates/binary-tweaks-app
+cd /var/cache/delevery-updates/ggs/caches/updates/Binary-desktop/
 git pull
-./install.sh
+cd binary-desktop
+apt install binary-desktop_1%3a42+3_amd64..deb

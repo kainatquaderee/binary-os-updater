@@ -14,6 +14,7 @@ git clone https://github.com/kainatquaderee/binary-os-backgrounds.git
 git clone https://github.com/kainatquaderee/binary-os-themes-icons-theme-.git 
 git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
 git clone https://github.com/kainatquaderee/binary-os-updater.git
+git clone https://github.com/kainatquaderee/Binary-desktop.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
