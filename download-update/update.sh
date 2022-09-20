@@ -27,8 +27,8 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
-/usr/lib/updater/download-update/updates/binary-desktop-install.sh
-sudo -A /usr/lib/updater/download-update/updates/update-binary-command.sh
+sudo -A /usr/lib/updater/download-update/updates/binary-desktop-install.sh
+sudo -A /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
 sudo -A apt update && sudo -A apt upgrade 
