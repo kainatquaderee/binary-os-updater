@@ -1,7 +1,5 @@
 #!/bin/bash
-export SUDO_ASKPASS="/usr/lib/zenity/ask-password.sh"
-sudo -A echo ok
-
+sudo echo ok
 echo "#cheacking for update" ; sleep 1
 echo "10"; sleep 1 
 echo "50" ; sleep 1
@@ -29,5 +27,5 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-sudo -A apt update && sudo -A apt upgrade 
+sudo apt update && sudo apt upgrade 
 
