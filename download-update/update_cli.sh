@@ -15,6 +15,9 @@ git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
 git clone https://github.com/kainatquaderee/binary-os-updater.git
 git clone https://github.com/kainatquaderee/Binary-desktop.git
 git clone https://github.com/kainatquaderee/binary-commands.git
+git clone https://github.com/kainatquaderee/binary-base-files.git
+git clonehttps://github.com/kainatquaderee/binary-os-fonts-roboto-.git
+git clone https://github.com/kainatquaderee/binary-plymouth-theme.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
@@ -26,9 +29,11 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
+sudo /home/kainat/Documents/GitHub/binary-os-updater/download-update/updates/binary-plymouth-theme.sh
+sudo /usr/lib/updater/download-update/updates/binary-base-files.sh
 sudo /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 sudo /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-sudo apt-get  update -y && sudo apt-get  upgrade -y
+/usr/bin/update-manager
 )
