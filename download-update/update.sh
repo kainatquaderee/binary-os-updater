@@ -1,6 +1,6 @@
 #!/bin/bash
-export SUDO_ASKPASS="/usr/lib/zenity/ask-password.sh"
-sudo -A echo ok
+password=`zenity --password`
+echo $password | sudo -S echo ok
 (
 echo "#cheacking for update" ; sleep 1
 echo "10"; sleep 1 
@@ -27,11 +27,11 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
-sudo -A /usr/lib/updater/download-update/updates/binary-desktop-install.sh
-sudo -A /usr/lib/updater/download-update/updates/binary-commands-install.sh
+echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-desktop-install.sh
+echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
 echo "#update done" ; sleep 1
-sudo -A apt-get  update -y && sudo -A apt-get  upgrade -y
+/usr/bin/update-manager
 ) |
 zenity --progress \
   --title="" \
