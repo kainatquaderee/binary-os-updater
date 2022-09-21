@@ -16,6 +16,8 @@ git clone https://github.com/kainatquaderee/binary-os-shell-extensions.git
 git clone https://github.com/kainatquaderee/binary-os-updater.git
 git clone https://github.com/kainatquaderee/Binary-desktop.git
 git clone https://github.com/kainatquaderee/binary-commands.git
+git clone https://github.com/kainatquaderee/binary-base-files.git
+git clonehttps://github.com/kainatquaderee/binary-os-fonts-roboto-.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
