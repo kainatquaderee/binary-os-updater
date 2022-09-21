@@ -19,6 +19,7 @@ git clone https://github.com/kainatquaderee/binary-commands.git
 git clone https://github.com/kainatquaderee/binary-base-files.git
 git clonehttps://github.com/kainatquaderee/binary-os-fonts-roboto-.git
 git clone https://github.com/kainatquaderee/binary-plymouth-theme.git
+git clone https://github.com/kainatquaderee/binary-os-release-upgrader.git
 /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
@@ -30,7 +31,8 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
-echo $password | sudo -S /home/kainat/Documents/GitHub/binary-os-updater/download-update/updates/binary-plymouth-theme.sh
+echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-os-release-upgrader.sh
+echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-plymouth-theme.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-base-files.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-commands-install.sh
