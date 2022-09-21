@@ -27,6 +27,7 @@ echo "75" ;sleep 1
 /usr/lib/updater/download-update/updates/update-backgrounds.sh
 /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 /usr/lib/updater/download-update/updates/font-update.sh
+/usr/lib/updater/download-update/updates/binary-base-files.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-desktop-install.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-commands-install.sh
 echo "90" ;sleep 1 
