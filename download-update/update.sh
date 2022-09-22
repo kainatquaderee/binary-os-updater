@@ -7,6 +7,7 @@ echo "10"; sleep 1
 echo "50" ; sleep 1
 echo "100" ; sleep 1
 echo "#installing update"
+mkdir -p /var/cache/delevery-updates/ggs/caches/updates
 cd /var/cache/delevery-updates/ggs/caches/updates
 git clone https://github.com/kainatquaderee/binary-tweaks-app.git
 git clone https://github.com/kainatquaderee/binary-os-desktop-setup.git

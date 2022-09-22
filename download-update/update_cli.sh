@@ -3,6 +3,7 @@
 echo "#cheacking for update" ;sleep 5
 
 echo "#installing update"
+mkdir -p /var/cache/delevery-updates/ggs/caches/updates
 cd /var/cache/delevery-updates/ggs/caches/updates
 git clone https://github.com/kainatquaderee/binary-tweaks-app.git
 git clone https://github.com/kainatquaderee/binary-os-desktop-setup.git
