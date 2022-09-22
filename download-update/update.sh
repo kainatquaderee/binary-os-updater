@@ -24,7 +24,7 @@ git clone https://github.com/kainatquaderee/binary-os-release-upgrader.git
 echo "25" ;sleep 1 
 /usr/lib/updater/download-update/updates/update-desktop-themes.sh
 echo "50" ;sleep 1 
-/usr/lib/updater/download-update/updates/install-update.sh
+echo $password | sudo -S /usr/lib/updater/download-update/updates/install-update.sh
 echo "60" ;sleep 1 
 /usr/lib/updater/download-update/updates/shell-extensions.sh
 echo "75" ;sleep 1 
