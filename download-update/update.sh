@@ -18,7 +18,7 @@ echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-os-u
 echo $password | sudo -S git clone https://github.com/kainatquaderee/Binary-desktop.git
 echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-commands.git
 echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-base-files.git
-echo $password | sudo -S git clonehttps://github.com/kainatquaderee/binary-os-fonts-roboto-.git
+echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-os-fonts-roboto-.git
 echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-plymouth-theme.git
 echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-os-release-upgrader.git
 echo $password | sudo -S /usr/lib/updater/download-update/updates/update-desktop-setup.sh
