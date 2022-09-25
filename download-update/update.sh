@@ -30,7 +30,7 @@ echo "60" ;sleep 1
 source /usr/lib/updater/download-update/updates/shell-extensions.sh
 echo "75" ;sleep 1 
 source /usr/lib/updater/download-update/updates/update-backgrounds.sh
-. /usr/lib/updater/download-update/updates/binary-tweak-update.sh
+source /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/font-update.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-os-release-upgrader.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-plymouth-theme.sh
