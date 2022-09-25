@@ -23,13 +23,13 @@ echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-plym
 echo $password | sudo -S git clone https://github.com/kainatquaderee/binary-os-release-upgrader.git
 echo $password | sudo -S /usr/lib/updater/download-update/updates/update-desktop-setup.sh
 echo "25" ;sleep 1 
-. /usr/lib/updater/download-update/updates/update-desktop-themes.sh
+source /usr/lib/updater/download-update/updates/update-desktop-themes.sh
 echo "50" ;sleep 1 
 echo $password | sudo -S /usr/lib/updater/download-update/updates/install-update.sh
 echo "60" ;sleep 1 
-. /usr/lib/updater/download-update/updates/shell-extensions.sh
+source /usr/lib/updater/download-update/updates/shell-extensions.sh
 echo "75" ;sleep 1 
-. /usr/lib/updater/download-update/updates/update-backgrounds.sh
+source /usr/lib/updater/download-update/updates/update-backgrounds.sh
 . /usr/lib/updater/download-update/updates/binary-tweak-update.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/font-update.sh
 echo $password | sudo -S /usr/lib/updater/download-update/updates/binary-os-release-upgrader.sh
